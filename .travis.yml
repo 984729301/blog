@@ -1,4 +1,9 @@
 sudo: required
 language: ruby
 rvm:
-  - 2.2.1
+- 2.2.1
+deploy:
+  provider: heroku
+  api_key:
+    secure: fIF/wZ8HmdU3w7YVoo7Tp+XvBU5C0PA0eHiNaCdXW6zjSbIYo3gyzLmJUnFhDShTwMpb4BPoWALeTHHTpy2/uC1S71vPQEpCvh+fRjuWna0FURBkcMuxbYxuDQWjrtypU0QASZvS8OsCyLvy81BTaQyMLoIRHb8ntQxX1AUKwpxAeh7E0TdPf+5ESbhd7zfxGtr2IBpUjOCHgT3WmFHwrehwjH04eUr+e/dD4xN83/DEcKSrOqXxaxcp6KMqjOD221OH6RV10dCDmw7NJDZnTKwy7dfijogJpTv4k30uiJ6oD5u73aNIJD4yTgK64vLRRDLfvncjiK7VFI/9t8R+8pzHdAOHR0nxp74JuC/IhYVA+gfVixXAWp9Va7b7r3zE9dG2dRqW/EsIj0XxQAPqIg3KyRNsXl3bv+LpV+P94/y5x7eRz2EgIhRwB1qbEqubepH/LajNCRD1VdnuJirzyk85M1x9a0sS8uc09BsX2voOWIuuKDCFa1Rpx+rJdSkzZz0ViHu2D/FTSbaOOxvbGuvgXBjE+AlbF5LEw2+/0yOGa1gAGL6Fu1WfPcXRfhV+8qmSEZhGTBlSZPZC+IXgki7thmotkebVBvQ4/ermfqFg1eMALH4XMhyqvEF6tTjhZHH800EdnwoCcpRnyYm3uNntvRh54jN8KNMLfzyjUk4=
+  app: blog
